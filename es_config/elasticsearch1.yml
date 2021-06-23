@@ -1,0 +1,8 @@
+cluster.name: es1
+
+node.name: ${HOSTNAME}
+
+network.host: [_eth1_,_local_]
+
+discovery.seed_hosts: ["node1"]
+cluster.initial_master_nodes: ["node1"]
